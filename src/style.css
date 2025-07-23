@@ -77,3 +77,13 @@ a {
     text-decoration: none;
     color: white
 }
+
+footer {
+  display: flex;
+  background-color: rgb(19, 19, 19);
+  height: 80px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+

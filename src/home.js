@@ -12,7 +12,7 @@ function loadHome() {
     contentDiv.appendChild(img);
 
     const wrapper = document.createElement('div');
-    wrapper.classList.add('wrapper');
+    wrapper.classList.add('container');
     contentDiv.appendChild(wrapper);
 
     const locationDiv = document.createElement('div')
@@ -43,7 +43,7 @@ function loadHome() {
         const dayDiv = document.createElement('div');
         const hourDiv = document.createElement('div');
         dayDiv.textContent = day;
-        if(day == 'Tuesday') {
+        if(day == 'Monday') {
             hourDiv.textContent = 'Closed';
         } else if(day == 'Friday' || day == 'Saturday') {
             hourDiv.textContent = '11:00 AM - 10:00 PM';
