@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
@@ -58,8 +59,8 @@ h1, h2, h3, h4, h5, h6 {
 header {
     font-family: 'Special Elite', cursive;
     font-size: 20px;
-    color: white;
-    background-color: rgb(19, 19, 19);
+    color: rgb(253, 251, 142);
+    background-color: rgb(53, 44, 36);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,22 +69,45 @@ header {
     top: 0;
 }
 
+header img {
+  margin-top: -10px;
+  width: 70px;
+  align-self: top;
+}
+
 nav {
     display: flex;
     gap: 40px;
 }
 
-a {
+nav a {
     text-decoration: none;
-    color: white
+    color: rgb(253, 251, 142);
 }
 
 footer {
+  font-family: 'Work Sans', sans-serif;
   display: flex;
-  background-color: rgb(19, 19, 19);
+  gap: 10px;
+  background-color: rgb(53, 44, 36);
   height: 80px;
-  color: white;
+  color: rgb(255, 253, 237);
   justify-content: center;
   align-items: center;
 }
 
+footer a {
+  text-decoration: none;
+  color: rgb(255, 253, 237);
+}
+
+a:hover {
+  color: rgb(168, 168, 125);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

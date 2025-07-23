@@ -3,7 +3,7 @@
 
 #content > img {
     width: 100vw;
-    height: 60vh;
+    height: 44vh;
     object-fit: cover;
 }
 
@@ -17,8 +17,8 @@ p {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
     row-gap: 8px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(83, 83, 83);
+    color: rgb(255, 255, 239);
+    background-color: rgb(124, 105, 87);
     border-radius: 25px;
     align-items: center;
     padding: 30px;
@@ -32,6 +32,7 @@ p {
     grid-template-rows: 20px 1fr;
     gap: 50px;
     padding: 30px;
+    background-color: rgb(255, 253, 237);
 }
 
 .location {
